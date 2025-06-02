@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
        GeneratorUdalosti generatorUdalosti = new GeneratorUdalosti();
-       Posluchac posluchac1 = new HelloPosluchac("Jana");
-       Posluchac posluchac2 = new HelloPosluchac("Karel");
+       Posluchac jana = new HelloPosluchac("Jana");
+       Posluchac karel = new HelloPosluchac("Karel");
 
-       generatorUdalosti.pridejPosluchace(posluchac1);
+       generatorUdalosti.pridejPosluchace(jana);
         System.out.println("událost 1");
         generatorUdalosti.generujUdalost();
 
-       generatorUdalosti.pridejPosluchace(posluchac2);
+       generatorUdalosti.pridejPosluchace(karel);
         System.out.println("událost 2 ");
         generatorUdalosti.generujUdalost();
 
