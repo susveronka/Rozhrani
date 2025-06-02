@@ -8,6 +8,7 @@ public class Main {
         System.out.println("událost 1");
         generatorUdalosti.generujUdalost();
 
+
        generatorUdalosti.pridejPosluchace(karel);
         System.out.println("událost 2 ");
         generatorUdalosti.generujUdalost();
